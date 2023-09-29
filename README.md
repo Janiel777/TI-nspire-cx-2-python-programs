@@ -13,40 +13,49 @@ This repository contains python programs that use the TI-nspire-cx-2 calculator 
    3.1 [Box plot](#Box-plot)
    3.2 [Grafica de percentiles](#Grafica-de-percentiles)
    3.3 [Histograma](#Histograma)
-   3.4 [Medidas de dispersion y tendencia central](#Medidas-de-dispersion-y-tendencia-central)
+   3.4 [Medidas-de-dispersion-y-tendencia-central](#Medidas-de-dispersion-y-tendencia-central)
 
+<a name="matematicas"></a>
+## Matemáticas
 
-## Matemáticas <a name="matematicas"></a>
+<a name="gauss-jordan"></a>
+### Gauss Jordan
 
-### Gauss Jordan <a name="gauss-jordan"></a>
+Contenido de la sección de Gauss Jordan.
 
-Contenido de la sección de Álgebra.
-
-### Inverse Matrix <a name="Inverse-Matrix"></a>
+<a name="Inverse-Matrix"></a>
+### Inverse Matrix
 
 Contenido de la sección de Inverse Matrix.
 
-## Química <a name="quimica"></a>
+<a name="quimica"></a>
+## Química 
 
-### Celda Unitaria <a name="Celda-Unitaria"></a>
+<a name="Celda-Unitaria"></a>
+### Celda Unitaria
 
 Contenido de la sección de Celda Unitaria.
 
-## Estadística <a name="estadistica"></a>
+<a name="estadistica"></a>
+## Estadística
 
-### Box plot <a name="Box-plot"></a>
+<a name="Box-plot"></a>
+### Box plot
 
 Contenido de la sección de Box plot.
 
-### Grafica de percentiles <a name="Grafica-de-percentiles"></a>
+<a name="Grafica-de-percentiles"></a>
+### Grafica de percentiles
 
 Contenido de la sección de Grafica de percentiles.
 
-### Histograma <a name="Histograma"></a>
+<a name="Histograma"></a>
+### Histograma
 
 Contenido de la sección de Histograma.
 
-### Medidas de dispersion y tendencia central <a name="Medidas-de-dispersion-y-tendencia-central"></a>
+<a name="Medidas-de-dispersion-y-tendencia-central"></a>
+### Medidas-de-dispersion-y-tendencia-central
 
 Contenido de la sección de Medidas-de-dispersion-y-tendencia-central.
 

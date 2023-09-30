@@ -2,13 +2,13 @@
 - Introduction
    - [About TI-nspire](#About)
    - [How to import the files](#How-to-import-the-files)
-- Algoritmos
+- Algorithms
    - Matemáticas
       - [Gauss Jordan](#gauss-jordan)
       - [Inverse Matrix](#Inverse-Matrix)
    - Science
       - [Unit cells](#Celda-Unitaria)
-   - Estadística
+   - Statistics
       - [Box plot](#Box-plot)
       - [Percentile graph](#Grafica-de-percentiles)
       - [Histogram](#Histograma)

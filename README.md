@@ -1,21 +1,49 @@
 # TI-nspire-cx-2-python-programs
 This repository contains python programs that use the TI-nspire-cx-2 calculator model libraries to solve problems that you may frequently encounter if you are studying a university degree.
 
+Esta es una calculadora grafica la cual permite programar y correr codigos en python. Util para crear cualquier tipo de algoritmo que facilite hacer calculos, graficas y mostrar procedimiento. Ademas de los modulos standard, esta tambien incluye unos modulos unicos para poder trabajar con la interfaz grafica de la calculadora. 
+
+
+| Standard Modules     | TI Modules                                                                     
+|:--------------------:|------------:|
+| Math (math)          |TI PlotLib (ti_plotlib) |
+| Random (random)      |TI Hub (ti_hub)|
+| Complex Math (cmath) |TI Rover (ti_rover)|
+| Time (time)          |TI System (ti_system)|
+|                      |TI Draw (ti_draw)|
+|                      |TI Image (ti_image)|
+
+Si tienes un modelo distinto a la TI-nspire-cx-2, estas son todos los modelos en los que esta disponible usar python:
+
+| Handhelds                         | Desktop Software                     |
+|-----------------------------------|-------------------------------------|
+| TI-Nspire™ CX II                  | TI-Nspire™ CX Premium Teacher Software  |
+| TI-Nspire™ CX II CAS              | TI-Nspire™ CX CAS Premium Teacher Software  |
+| TI-Nspire™ CX II-T                | TI-Nspire™ CX Student Software  |
+| TI-Nspire™ CX II-T CAS            | TI-Nspire™ CX CAS Student Software  |
+| TI-Nspire™ CX II-C                |                                     |
+| TI-Nspire™ CX II-C CAS            |                                     |
+
+Para mas informacion pueden entrar a la pagina <a href="https://education.ti.com/en/products?category=graphing-calculators" target="_blank"> Texas Instruments Graphing calculators</a>
+
+Para descargar el manual de los modulos TI de python [Manual](https://github.com/Janiel777/TI-nspire-cx-2-python-programs/files/12775095/TI-Nspire_Python_Programming_Guidebook_EN.6.pdf)
+
 
 ## Índice
 
-1. [Matemáticas](#matematicas)
-   1.1 [Gauss Jordan](#gauss-jordan)
-   1.2 [Inverse Matrix](#Inverse-Matrix)
-2. [Química](#quimica)
-   2.1 [Celda Unitaria](#Celda-Unitaria)
-3. [Estadística](#estadistica)
-   3.1 [Box plot](#Box-plot)
-   3.2 [Grafica de percentiles](#Grafica-de-percentiles)
-   3.3 [Histograma](#Histograma)
-   3.4 [Medidas-de-dispersion-y-tendencia-central](#Medidas-de-dispersion-y-tendencia-central)
+- [Matemáticas](#matematicas)
+   - [Gauss Jordan](#gauss-jordan)
+   - [Inverse Matrix](#Inverse-Matrix)
+- [Química](#quimica)
+   - [Celda Unitaria](#Celda-Unitaria)
+- [Estadística](#estadistica)
+   - [Box plot](#Box-plot)
+   - [Grafica de percentiles](#Grafica-de-percentiles)
+   - [Histograma](#Histograma)
+   - [Medidas-de-dispersion-y-tendencia-central](#Medidas-de-dispersion-y-tendencia-central)
 
 <a name="matematicas"></a>
+<!-- Matemáticas -->
 # Matemáticas
 
 ![portada matematicas](https://github.com/Janiel777/TI-nspire-cx-2-python-programs/assets/95184925/4a0fb6e3-2661-4ca1-acef-bdcd0c066091)
@@ -451,5 +479,8 @@ momento^4
 150.06
 41
 ```
+![TexasInstruments-Logo svg](https://github.com/Janiel777/TI-nspire-cx-2-python-programs/assets/95184925/c86f7a60-f585-489c-9a78-b7acf4f0d2a4)
 
 
+[Texas-Instrument]: 
+[Texas-Instrument-URL]: (https://education.ti.com/en/products?category=graphing-calculators)

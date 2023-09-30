@@ -1,11 +1,13 @@
 ## Índice
-- [About TI-nspire](#About)
-- [Matemáticas](#matematicas)
+- Introduction
+   - [About TI-nspire](#About)
+   - [How to import the files](#How-to-import-the-files)
+- Matemáticas
    - [Gauss Jordan](#gauss-jordan)
    - [Inverse Matrix](#Inverse-Matrix)
-- [Química](#quimica)
+- Science
    - [Celda Unitaria](#Celda-Unitaria)
-- [Estadística](#estadistica)
+- Estadística
    - [Box plot](#Box-plot)
    - [Grafica de percentiles](#Grafica-de-percentiles)
    - [Histograma](#Histograma)
@@ -42,6 +44,19 @@ Para mas informacion pueden entrar a la pagina <a href="https://education.ti.com
 
 Para descargar el manual de los modulos TI de python [Manual](https://github.com/Janiel777/TI-nspire-cx-2-python-programs/files/12775095/TI-Nspire_Python_Programming_Guidebook_EN.6.pdf)
 
+# How to import the files
+
+1. Primero va a necesitar descargar el software que simula la calculadora en la computadora. Las instrucciones de como instalarlo estan en el empaque de la calculadora junto a la licencia que permite utilizar el software de estudiante.
+   
+2. Descargue las carpetas con los archivos tns en este repositorio. Los archivos .py no son necesarios, estan en el repositorio para poder ver el codigo de los archivos tns.
+   
+3. Abra el software y busque en la pestaña señalada, los archivos tns descargados en su computadora.
+   
+4. Conecte su calculadora y verifique que el software reconosca que esta conectada. Debera aparecer en la pestaña abajo en la izquierda.
+   
+5. Seleccione la calculadora y dirijase a la carpeta "python".
+    
+6. Suelte los archivos tns y listo.
 
 <a name="matematicas"></a>
 <!-- Matemáticas -->

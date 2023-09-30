@@ -2,16 +2,17 @@
 - Introduction
    - [About TI-nspire](#About)
    - [How to import the files](#How-to-import-the-files)
-- Matemáticas
-   - [Gauss Jordan](#gauss-jordan)
-   - [Inverse Matrix](#Inverse-Matrix)
-- Science
-   - [Celda Unitaria](#Celda-Unitaria)
-- Estadística
-   - [Box plot](#Box-plot)
-   - [Grafica de percentiles](#Grafica-de-percentiles)
-   - [Histograma](#Histograma)
-   - [Medidas-de-dispersion-y-tendencia-central](#Medidas-de-dispersion-y-tendencia-central)
+- Algoritmos
+   - Matemáticas
+      - [Gauss Jordan](#gauss-jordan)
+      - [Inverse Matrix](#Inverse-Matrix)
+   - Science
+      - [Celda Unitaria](#Celda-Unitaria)
+   - Estadística
+      - [Box plot](#Box-plot)
+      - [Grafica de percentiles](#Grafica-de-percentiles)
+      - [Histograma](#Histograma)
+      - [Medidas-de-dispersion-y-tendencia-central](#Medidas-de-dispersion-y-tendencia-central)
 
 <a name="About"></a>
 # About TI-nspire

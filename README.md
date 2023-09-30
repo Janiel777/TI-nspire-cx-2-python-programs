@@ -48,7 +48,7 @@ Para descargar el manual de los modulos TI de python [Manual](https://github.com
 
 1. Primero va a necesitar descargar el software que simula la calculadora en la computadora. Las instrucciones de como instalarlo estan en el empaque de la calculadora junto a la licencia que permite utilizar el software de estudiante.
    
-2. Descargue las carpetas con los archivos tns en este repositorio. Los archivos .py no son necesarios, estan en el repositorio para poder ver el codigo de los archivos tns.
+2. Descargue el zip y descomprima y guarde en su computadora las carpetas con los archivos tns en este repositorio. Los archivos .py no son necesarios, estan en el repositorio para poder ver el codigo de los archivos tns. La calculadora no acepta archivos .py.
 
    ![paso1](https://github.com/Janiel777/TI-nspire-cx-2-python-programs/assets/95184925/c4ff6118-913a-4515-be01-ea0f2427d4ae)
 

@@ -1,4 +1,4 @@
-## Índice
+## Index
 - Introduction
    - [About TI-nspire](#About)
    - [How to import the files](#How-to-import-the-files)

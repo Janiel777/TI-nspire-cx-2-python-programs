@@ -7,18 +7,18 @@
       - [Gauss Jordan](#gauss-jordan)
       - [Inverse Matrix](#Inverse-Matrix)
    - Science
-      - [Celda Unitaria](#Celda-Unitaria)
+      - [Unit cells](#Celda-Unitaria)
    - Estadística
       - [Box plot](#Box-plot)
-      - [Grafica de percentiles](#Grafica-de-percentiles)
-      - [Histograma](#Histograma)
-      - [Medidas-de-dispersion-y-tendencia-central](#Medidas-de-dispersion-y-tendencia-central)
+      - [Percentile graph](#Grafica-de-percentiles)
+      - [Histogram](#Histograma)
+      - [Measures-of-dispersion-and-central-tendency](#Medidas-de-dispersion-y-tendencia-central)
 
 <a name="About"></a>
 # About TI-nspire
 This repository contains python programs that use the TI-nspire-cx-2 calculator model libraries to solve problems that you may frequently encounter if you are studying a university degree.
 
-Esta es una calculadora grafica la cual permite programar y correr codigos en python. Util para crear cualquier tipo de algoritmo que facilite hacer calculos, graficas y mostrar procedimiento. Ademas de los modulos standard, esta tambien incluye unos modulos unicos para poder trabajar con la interfaz grafica de la calculadora. 
+This is a graphing calculator which allows you to program and run codes in Python. Useful for creating any type of algorithm that makes it easy to make calculations, graphs and show procedures. In addition to the standard modules, it also includes some unique modules to work with the calculator's graphical interface.
 
 
 | Standard Modules     | TI Modules                                                                     
@@ -30,7 +30,7 @@ Esta es una calculadora grafica la cual permite programar y correr codigos en py
 |                      |TI Draw (ti_draw)|
 |                      |TI Image (ti_image)|
 
-Si tienes un modelo distinto a la TI-nspire-cx-2, estas son todos los modelos en los que esta disponible usar python:
+These are all the models in which programming in Python is available:
 
 | Handhelds                         | Desktop Software                     |
 |-----------------------------------|-------------------------------------|
@@ -41,48 +41,42 @@ Si tienes un modelo distinto a la TI-nspire-cx-2, estas son todos los modelos en
 | TI-Nspire™ CX II-C                |                                     |
 | TI-Nspire™ CX II-C CAS            |                                     |
 
-Para mas informacion pueden entrar a la pagina <a href="https://education.ti.com/en/products?category=graphing-calculators" target="_blank"> Texas Instruments Graphing calculators</a>
+For more information you can go to the page <a href="https://education.ti.com/en/products?category=graphing-calculators" target="_blank"> Texas Instruments Graphing calculators</a>
 
-Para descargar el manual de los modulos TI de python [Manual](https://github.com/Janiel777/TI-nspire-cx-2-python-programs/files/12775095/TI-Nspire_Python_Programming_Guidebook_EN.6.pdf)
+To download the python TI modules manual [Manual](https://github.com/Janiel777/TI-nspire-cx-2-python-programs/files/12775095/TI-Nspire_Python_Programming_Guidebook_EN.6.pdf)
 
 # How to import the files
 
-1. Primero va a necesitar descargar el software que simula la calculadora en la computadora. Las instrucciones de como instalarlo estan en el empaque de la calculadora junto a la licencia que permite utilizar el software de estudiante.
+1. First you will need to download the software that simulates the calculator on your computer. Instructions on how to install it are on the calculator packaging along with the license that allows you to use the student software.
    
-2. Descargue el zip y descomprima y guarde en su computadora las carpetas con los archivos tns en este repositorio. Los archivos .py no son necesarios, estan en el repositorio para poder ver el codigo de los archivos tns. La calculadora no acepta archivos .py.
+2. Download the zip, unzip and save the folders with the tns files in this repository on your computer. The .py files are not necessary, they are in the repository to be able to see the code of the tns files. The calculator does not accept .py files.
 
    ![paso1](https://github.com/Janiel777/TI-nspire-cx-2-python-programs/assets/95184925/c4ff6118-913a-4515-be01-ea0f2427d4ae)
 
-3. Abra el software y busque en la pestaña señalada, los archivos tns descargados en su computadora.
+3. Open the software and look in the indicated tab for the tns files downloaded to your computer.
 
    ![paso2](https://github.com/Janiel777/TI-nspire-cx-2-python-programs/assets/95184925/0143125f-e021-42a6-922e-c64e618b404f)
 
-4. Conecte su calculadora y verifique que el software reconosca que esta conectada. Debera aparecer en la pestaña abajo en la izquierda.
+4. Connect your calculator and verify that the software recognizes that it is connected. It should appear in the tab below on the left.
 
    ![paso3](https://github.com/Janiel777/TI-nspire-cx-2-python-programs/assets/95184925/722f8848-f675-4f96-8b7f-f49095d545f9)
 
-5. Seleccione la calculadora y dirijase a la carpeta "python".
+5. Select the calculator and go to the "python" folder.
    
     ![paso4](https://github.com/Janiel777/TI-nspire-cx-2-python-programs/assets/95184925/5e18b733-43fb-44f6-a0e0-c732951d8338)
 
-6. Suelte los archivos tns en la carpeta python y listo.
-
-<a name="matematicas"></a>
-<!-- Matemáticas -->
-# Matemáticas
-
-![portada matematicas](https://github.com/Janiel777/TI-nspire-cx-2-python-programs/assets/95184925/4a0fb6e3-2661-4ca1-acef-bdcd0c066091)
+6. Drop the tns files into the python folder and you're done.
 
 
 <a name="gauss-jordan"></a>
 # Gauss Jordan
 
-Este algoritmo en python, no solamente resuelve sistemas de ecuaciones nxn, si no que tambien muestra el procedimiento. Tomemos de ejemplo la siguiente ecuacion:
+This algorithm in Python not only solves systems of nxn equations, but also shows the procedure. Let's take the following equation as an example:
 
 ![sistema de ecuaciones](https://github.com/Janiel777/TI-nspire-cx-2-python-programs/assets/95184925/2aa82c71-d16c-4291-ae1e-d7eaf20026b7)
 
-1. Al correr el algoritmo, nos va a pedir que introduscamos el numero de ecuaciones. Tengan en cuenta que no esta pensado para resolver sistemas con menor numero de ecuaciones al de las incognitas. 
-2. Despues introducimos los coeficientes de las ecuaciones separado por espacio y nos va a mostrar las operaciones de filas de matrices necesarias a realizar para poder igualar todos los numeros por encima y debajo de la diagonal a 0 y los de la diagonal iguales a 1. A continuacion este es el output del codigo para dicho sistema de ecuacion:
+1. When running the algorithm, it will ask us to enter the number of equations. Keep in mind that it is not designed to solve systems with a smaller number of equations than the number of unknowns.
+2. Afterwards we introduce the coefficients of the equations separated by space and it will show us the matrix row operations necessary to perform in order to equal all the numbers above and below the diagonal to 0 and those on the diagonal equal to 1. Below is the output of the code for said equation system:
 
 ```
 #Running GaussJordan.py
@@ -141,14 +135,14 @@ The solution is:  ['6', '-2', '-5/2']
 <a name="Inverse-Matrix"></a>
 # Inverse Matrix
 
-Este algoritmo sigue la misma idea que el de Gauss Jordan solo que amplia la matriz original añadiendo a la derecha la matriz identidad. Hace las operaciones de filas de matrices necesarios hasta hacer que la matriz de la izquierda se convierta en la matriz identidad. Resultando que la matriz de la derecha va a ser la inversa de la matriz original con la que empezamos.
+This algorithm follows the same idea as Gauss Jordan's, except that it expands the original matrix by adding the identity matrix to the right. It performs the necessary matrix row operations until the matrix on the left becomes the identity matrix. Resulting in the matrix on the right being the inverse of the original matrix we started with.
 
-Tomemos de ejemplo de nuevo la siguiente ecuacion:
+Let's take the following equation again as an example:
 
 ![sistema de ecuaciones](https://github.com/Janiel777/TI-nspire-cx-2-python-programs/assets/95184925/2aa82c71-d16c-4291-ae1e-d7eaf20026b7)
 
-1. Al correr el codigo nos va a pedir que introduscamos el tamaño de la matriz cuadrada. Tiene que ser cuadrada, nxn donde n es el mismo numero de columnas que de filas, ya que la vamos a estar ampliando con una matriz identidad de igual tamaño.
-2. Despues introducimos los valores de los coeficientes separados por espacios. A continuacion un ejemplo del output del codigo:
+1. When running the code it will ask us to enter the size of the square matrix. It has to be square, nxn where n is the same number of columns as rows, since we are going to be expanding it with an identity matrix of the same size.
+2. Then we enter the values of the coefficients separated by spaces. Below is an example of the code output:
 ```
 #Running InverseMatrix.py
 from InverseMatrix import *
@@ -212,17 +206,12 @@ The inverse of the matrix is:
 0 -1/2 1/2
 ```
 
-<a name="quimica"></a>
-# Science 
-
-![Portada ciencias](https://github.com/Janiel777/TI-nspire-cx-2-python-programs/assets/95184925/16aacf75-21b7-443c-b9eb-971614095436)
-
 <a name="Celda-Unitaria"></a>
-# Celda Unitaria
+# Unit cells
 
-Este algoritmo dibuja una celda unitaria cristalina SC, BCC, FCC o HCP con la posicion exacta de sus atomos. Despues te permite dibujar encima de esa celda un vector o un plano. Esta visualizacion grafica es util para saber cuantos atomos interseca el vector o el plano. Esto es util para problemas de densidad lineal y densidad planar. 
+This algorithm draws a SC, BCC, FCC or HCP crystalline unit cell with the exact position of its atoms. Then it allows you to draw a vector or a plane on top of that cell. This graphical display is useful for knowing how many atoms the vector or plane intersects. This is useful for linear density and planar density problems.
 
-Al correr el codigo simplemente ve introduciendo el numero de cada opcion deseada y presionando enter. Para ingresar los valores del vector o del plano, introdusca los valores uno a uno. A continuacion un ejemplo del output del codigo y de algunos ejemplos de los dibujos que puede realizar.
+When running the code, simply enter the number of each desired option and press enter. To enter vector or plane values, enter the values one by one. Below is an example of the code output and some examples of the drawings you can make.
 
 ```
 #Running CeldaUnitaria.py
@@ -242,43 +231,35 @@ intersection y: 1
 intersection z: 1
 ```
 
-Este output resulta en el siguiente dibujo:
+This output results in the following drawing:
 
 
 ![FCCPlane111](https://github.com/Janiel777/TI-nspire-cx-2-python-programs/assets/95184925/d126bf97-7e32-4c8e-8373-8989aac73293)
 
-Las lineas entrecortadas de color azul sirven como lineas de proyeccion para poder visualizar mejor la perspectiva de la posicion de los atomos con el plano. Por otra parte, las lineas de color amarillo representan el plano.
+The broken blue lines serve as projection lines to better visualize the perspective of the position of the atoms with the plane. On the other hand, the yellow lines represent the plane.
 
-Otro ejemplo para mostrar como se veria el vector. Esta es en una celda HCP.
+Another example to show what the vector would look like. This is in an HCP cell.
 
 ![HCPDirection121](https://github.com/Janiel777/TI-nspire-cx-2-python-programs/assets/95184925/9a343fa6-686e-45f2-935a-866d2295bad8)
 
-En este caso el vector se muestra de color verde. Tambien con unas lineas de proyeccion para poder visualizar mejor su altura en el dibujo.
+In this case the vector is shown in green. Also with some projection lines to better visualize its height in the drawing.
 
-A continuacion unos ejemplos mas para visualizar distintas variaciones
+Below are some more examples to visualize different variations.
 
-Estructura HCP con un plano (0 1 0)
+### HCP structure with a plane (0 1 0)
 ![HCP_Plane010](https://github.com/Janiel777/TI-nspire-cx-2-python-programs/assets/95184925/0b89149e-0241-45d8-b1d5-a03bc1f720b9)
 
-Estructura BCC con un plano (2 2 0)
+### BCC structure with a plane (2 2 0)
 ![BCC_Plane220](https://github.com/Janiel777/TI-nspire-cx-2-python-programs/assets/95184925/bd82c4ba-3c71-4c43-9186-46bdc443e16a)
 
-Estructura SC con un vector [2 2 4]
+### SC structure with a vector [2 2 4]
 ![SC_Direction224](https://github.com/Janiel777/TI-nspire-cx-2-python-programs/assets/95184925/d1a414f4-2861-41d1-a27b-56788f08bcc8)
-
-
-
-
-<a name="estadistica"></a>
-# Estadística
-
-![portada estadistica](https://github.com/Janiel777/TI-nspire-cx-2-python-programs/assets/95184925/23598588-49cc-49e3-8dfb-f53e6e4b77c6)
 
 
 <a name="Box-plot"></a>
 # Box plot
 
-Este algoritmo hace los calculos de las cuantilas .25, .50, .75 y del IQR sobre un conjunto de datos ingresado a travez de inputs. Ademas hace el dibujo de la grafica y los calculos para saber si hay outliers o no. A continuacion un ejemplo de como se ingresan los datos, como muestra el output de los calculos y el dibujo de la grafica:
+This algorithm makes the calculations of the quantiles .25, .50, .75 and the IQR on a set of data entered through inputs. It also draws the graph and calculates to know if there are outliers or not. Below is an example of how the data is entered, as shown in the output of the calculations and the drawing of the graph:
 
 ```
 #Running BoxPlot.py
@@ -330,9 +311,9 @@ Right Outlier
 
 
 <a name="Grafica-de-percentiles"></a>
-# Grafica de percentiles
+# Percentile graph
 
-Este algoritmo dibuja una grafica de percentiles de un conjunto de datos dados a travez de inputs. Ademas de calcular y dibujar una regresion lineal. Esto es util para hacer analisis de datos y saber si hay algun patron en los datos o si fueron escogidos aleatoriamente. 
+This algorithm draws a percentile graph of a given data set through inputs. In addition to calculating and drawing a linear regression. This is useful for doing data analysis and knowing if there is any pattern in the data or if it was chosen randomly.
 
 ```
 #Running Estadistica.py
@@ -354,10 +335,10 @@ Valor#10: 3
 
 
 <a name="Histograma"></a>
-# Histograma
+# Histogram
 
-Este algoritmo dibuja un histograma de barras que representan la frecuencia de elementos que pertenecen a intervalos calculado a partir del rango del conjunto de datos y de una constante k.
-A continuacion un ejemplo de el output y de la grafica:
+This algorithm draws a histogram of bars representing the frequency of elements belonging to intervals calculated from the range of the data set and a constant k.
+Below is an example of the output and the graph:
 
 ```
 #Running Histograma.py
@@ -405,10 +386,10 @@ delta = rango/k= 3.25
 
 
 <a name="Medidas-de-dispersion-y-tendencia-central"></a>
-# Medidas-de-dispersion-y-tendencia-central
+# Measures of dispersion and centraltendency
 
-Este algoritmo no tiene alguna representacion visual. A partir de un conjunto de datos, ya sea una poblacion o muestra, este calcula todas las medidas de tendencia central y de dispercion. 
-A continuacion un ejemplo del output:
+This algorithm does not have any visual representation. From a set of data, whether a population or sample, it calculates all measures of central tendency and dispersion.
+Below is an example of the output:
 
 ```
 #Running Estadistica.py
@@ -504,8 +485,4 @@ momento^4
 150.06
 41
 ```
-![TexasInstruments-Logo svg](https://github.com/Janiel777/TI-nspire-cx-2-python-programs/assets/95184925/c86f7a60-f585-489c-9a78-b7acf4f0d2a4)
 
-
-[Texas-Instrument]: 
-[Texas-Instrument-URL]: (https://education.ti.com/en/products?category=graphing-calculators)

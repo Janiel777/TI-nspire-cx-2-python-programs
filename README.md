@@ -49,14 +49,22 @@ Para descargar el manual de los modulos TI de python [Manual](https://github.com
 1. Primero va a necesitar descargar el software que simula la calculadora en la computadora. Las instrucciones de como instalarlo estan en el empaque de la calculadora junto a la licencia que permite utilizar el software de estudiante.
    
 2. Descargue las carpetas con los archivos tns en este repositorio. Los archivos .py no son necesarios, estan en el repositorio para poder ver el codigo de los archivos tns.
-   
+
+   ![paso1](https://github.com/Janiel777/TI-nspire-cx-2-python-programs/assets/95184925/c4ff6118-913a-4515-be01-ea0f2427d4ae)
+
 3. Abra el software y busque en la pestaña señalada, los archivos tns descargados en su computadora.
-   
+
+   ![paso2](https://github.com/Janiel777/TI-nspire-cx-2-python-programs/assets/95184925/0143125f-e021-42a6-922e-c64e618b404f)
+
 4. Conecte su calculadora y verifique que el software reconosca que esta conectada. Debera aparecer en la pestaña abajo en la izquierda.
-   
+
+   ![paso3](https://github.com/Janiel777/TI-nspire-cx-2-python-programs/assets/95184925/722f8848-f675-4f96-8b7f-f49095d545f9)
+
 5. Seleccione la calculadora y dirijase a la carpeta "python".
-    
-6. Suelte los archivos tns y listo.
+   
+    ![paso4](https://github.com/Janiel777/TI-nspire-cx-2-python-programs/assets/95184925/5e18b733-43fb-44f6-a0e0-c732951d8338)
+
+6. Suelte los archivos tns en la carpeta python y listo.
 
 <a name="matematicas"></a>
 <!-- Matemáticas -->

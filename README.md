@@ -163,7 +163,44 @@ The inverse of the matrix is:
 <a name="Celda-Unitaria"></a>
 ### Celda Unitaria
 
-Este algoritmo dibuja una celda unitaria cristalina SC, BCC, FCC o HCP con la posicion de sus atomos. Despues te permite dibujar encima de esa celda un vector o un plano. Esta visualizacion grafica es util para saber cuantos atomos interseca el verctor o el plano. Esto es util para para algunos problemas de densidad lineal y densidad planar.
+Este algoritmo dibuja una celda unitaria cristalina SC, BCC, FCC o HCP con la posicion de sus exacta de sus atomos. Despues te permite dibujar encima de esa celda un vector o un plano. Esta visualizacion grafica es util para saber cuantos atomos interseca el verctor o el plano. Esto es util para para algunos problemas de densidad lineal y densidad planar. 
+
+Al correr el codigo simplemente ve introduciendo el numero de cada opcion deseada y presionando enter. Para ingresar los valores del vector o del plano, simplemente instrodusca el valor y presione enter. A continuacion un ejemplo del output del codigo y de algunos ejemplos de los dibujos que puede realizar.
+
+```
+#Running CeldaUnitaria.py
+from CeldaUnitaria import *
+1:BCC
+2:FCC
+3:SC
+4:HCP
+
+choice: 2
+1: Direction
+2: Plane
+
+choice: 2
+intersection x: 1
+intersection y: 1
+intersection z: 1
+```
+
+Este output resulta en el siguiente dibujo:
+
+
+![FCCPlane111](https://github.com/Janiel777/TI-nspire-cx-2-python-programs/assets/95184925/d126bf97-7e32-4c8e-8373-8989aac73293)
+
+Las lineas entrecortadas de color azul sirven como lineas de proyeccion para poder visualizar mejor la perspectiva de la posicion de los atomos con el plano. Por otra parte, las lineas de color amarillo representan el plano.
+
+Otro ejemplo para mostrar como se veria el vector. Esta es en una celda HCP.
+
+![HCPDirection121](https://github.com/Janiel777/TI-nspire-cx-2-python-programs/assets/95184925/9a343fa6-686e-45f2-935a-866d2295bad8)
+
+En este caso el vector se muestra de color verde. Tambien con unas lineas de proyeccion para poder visualizar mejor su altura en el dibujo. 
+
+
+
+
 
 
 

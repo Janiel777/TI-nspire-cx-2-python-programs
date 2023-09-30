@@ -486,3 +486,9 @@ momento^4
 41
 ```
 
+# Clarifications
+
+- The codes are not perfect.
+- They have poor documentation within the code since it was not intended for anyone else to analyze or contribute to the code.
+- Some algorithms are very specific in the way they visually display the data.
+- Even so, feel free to contribute or correct any errors.

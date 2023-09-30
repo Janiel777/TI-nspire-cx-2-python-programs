@@ -43,7 +43,7 @@ These are all the models in which programming in Python is available:
 
 For more information you can go to the page <a href="https://education.ti.com/en/products?category=graphing-calculators" target="_blank"> Texas Instruments Graphing calculators</a>
 
-To download the python TI modules manual [Manual](https://github.com/Janiel777/TI-nspire-cx-2-python-programs/files/12775095/TI-Nspire_Python_Programming_Guidebook_EN.6.pdf)
+To download the python TI modules [manual](https://github.com/Janiel777/TI-nspire-cx-2-python-programs/files/12775095/TI-Nspire_Python_Programming_Guidebook_EN.6.pdf)
 
 # How to import the files
 

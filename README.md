@@ -1,4 +1,18 @@
-# TI-nspire-cx-2-python-programs
+## Índice
+- [About TI-nspire](#About)
+- [Matemáticas](#matematicas)
+   - [Gauss Jordan](#gauss-jordan)
+   - [Inverse Matrix](#Inverse-Matrix)
+- [Química](#quimica)
+   - [Celda Unitaria](#Celda-Unitaria)
+- [Estadística](#estadistica)
+   - [Box plot](#Box-plot)
+   - [Grafica de percentiles](#Grafica-de-percentiles)
+   - [Histograma](#Histograma)
+   - [Medidas-de-dispersion-y-tendencia-central](#Medidas-de-dispersion-y-tendencia-central)
+
+<a name="About"></a>
+# About TI-nspire
 This repository contains python programs that use the TI-nspire-cx-2 calculator model libraries to solve problems that you may frequently encounter if you are studying a university degree.
 
 Esta es una calculadora grafica la cual permite programar y correr codigos en python. Util para crear cualquier tipo de algoritmo que facilite hacer calculos, graficas y mostrar procedimiento. Ademas de los modulos standard, esta tambien incluye unos modulos unicos para poder trabajar con la interfaz grafica de la calculadora. 
@@ -28,19 +42,6 @@ Para mas informacion pueden entrar a la pagina <a href="https://education.ti.com
 
 Para descargar el manual de los modulos TI de python [Manual](https://github.com/Janiel777/TI-nspire-cx-2-python-programs/files/12775095/TI-Nspire_Python_Programming_Guidebook_EN.6.pdf)
 
-
-## Índice
-
-- [Matemáticas](#matematicas)
-   - [Gauss Jordan](#gauss-jordan)
-   - [Inverse Matrix](#Inverse-Matrix)
-- [Química](#quimica)
-   - [Celda Unitaria](#Celda-Unitaria)
-- [Estadística](#estadistica)
-   - [Box plot](#Box-plot)
-   - [Grafica de percentiles](#Grafica-de-percentiles)
-   - [Histograma](#Histograma)
-   - [Medidas-de-dispersion-y-tendencia-central](#Medidas-de-dispersion-y-tendencia-central)
 
 <a name="matematicas"></a>
 <!-- Matemáticas -->

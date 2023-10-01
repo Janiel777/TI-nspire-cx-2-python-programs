@@ -3,7 +3,7 @@
    - [About TI-nspire](#About)
    - [How to import the files](#How-to-import-the-files)
 - Algorithms
-   - Matemáticas
+   - Math
       - [Gauss Jordan](#gauss-jordan)
       - [Inverse Matrix](#Inverse-Matrix)
    - Science

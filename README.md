@@ -494,7 +494,7 @@ momento^4
 This is a simple and very basic recreation of the first game created, Pong. This is an example that the calculator interface can be used just like any framework.
 
 
-https://github.com/Janiel777/TI-nspire-cx-2-python-programs/assets/95184925/ae4126f0-828c-4255-876e-48ab2fc970b7
+https://github.com/Janiel777/TI-nspire-cx-2-python-programs/assets/95184925/91bce4c0-8b1c-47f4-814c-2cc4405795e3
 
 Some interesting things about the limitations I encountered when making this game were the following:
 

@@ -13,6 +13,8 @@
       - [Percentile graph](#Grafica-de-percentiles)
       - [Histogram](#Histograma)
       - [Measures-of-dispersion-and-central-tendency](#Medidas-de-dispersion-y-tendencia-central)
+   - Games
+      - [Pong](#Pong)
 
 <a name="About"></a>
 # About TI-nspire
@@ -485,6 +487,22 @@ momento^4
 150.06
 41
 ```
+
+<a name="Pong"></a>
+# Pong
+
+This is a simple and very basic recreation of the first game created, Pong. This is an example that the calculator interface can be used just like any framework.
+
+
+https://github.com/Janiel777/TI-nspire-cx-2-python-programs/assets/95184925/ae4126f0-828c-4255-876e-48ab2fc970b7
+
+Some interesting things about the limitations I encountered when making this game were the following:
+
+-To make an object move, it is not enough to give coordinates to a rectangle and change them. Since this causes many squares to be drawn. Always before starting to draw a new frame, you have to clear everything so that the movement effect is created.
+
+-Doing a clear in each iteration of the main loop can be very expensive and is noticeable because the mouse moves very slowly and keyboard inputs are received with a long delay. To resolve this I made the game update 10 times per second which allows the mouse to be controlled more fluidly.
+
+-Why make the movement with the mouse instead of the directional keys on the keyboard? I did this because the calculator does not handle very well when a key is left pressed. What happened was that if a directional key was left pressed, it caused the method that returns the pressed key to return the key for longer than the time it was left pressed.
 
 # Clarifications
 
